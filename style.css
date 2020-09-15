@@ -1,0 +1,108 @@
+:root {
+    --string-color: #B7B7B7;
+    --bg-color: #0C0B0B;
+    --projects-color: #046313;
+    --stars-color: #044A7D;
+    --followers-color: #725200;
+    --button-color: #0F0E0E;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    color: var(--string-color);
+    list-style-type: none;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: var(--bg-color);
+    margin: 240px 300px;
+    padding: 50px;
+}
+
+.profile {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+}
+
+#pic {
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+#ids {
+    margin-left: 16px;
+}
+
+#ids h1 {
+    font-weight: 500;
+}
+
+#ids h1, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    background-color: var(--button-color);
+    margin-right: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+#edit-icon {
+    margin-right: 6px;
+    height: 30px;
+    border-radius: none;
+}
+
+.insights{
+    background-color: var(--bg-color);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.it {
+    width: 300px;
+    height: 80px;
+    margin: 15px 12px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.it p {
+    margin: 6px 6px 0 6px;
+}
+
+.number {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.projects {
+    background-color: var(--projects-color);
+}
+
+.stars {
+    background-color: var(--stars-color);
+}
+
+.followers {
+    background-color: var(--followers-color);
+}
