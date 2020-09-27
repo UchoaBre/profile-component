@@ -1,0 +1,71 @@
+@media (max-width: 1200px) {
+    .container::after {
+        content: "";
+        position: absolute;
+        background: black;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 6.5rem;
+        z-index: 0;
+    }
+
+    .container {
+        position: relative;
+        width: 40%;
+        margin: auto;
+    }
+
+    .container > * {
+        z-index: 10;
+        position: relative;
+    }
+
+    .profile::after {
+        content: "";
+        position: absolute;
+        background: black;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        height: 3.4rem;
+        z-index: -1;
+    }
+    
+    .profile {
+        display: block;
+    }
+
+    .profile > * {
+        z-index: 10;
+        position: relative;
+    }
+
+    .id {
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .pic {
+        position: absolute;
+        z-index: -1;
+    }
+
+    button {
+        margin: auto;
+    }
+
+    .insights {
+        display: block;
+    }
+
+    .it {
+        align-items: center;
+        display: block;
+        margin: 24px auto;    
+    }
+}
